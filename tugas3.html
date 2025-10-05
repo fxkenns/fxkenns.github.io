@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran - Riwayat Pendidikan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="right-panel">
+        <h2>PENDAFTARAN MAHASISWA</h2>
+
+        <div class="progressbar">
+            <a href="index.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas2.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas3.html" class="step active"></a>
+            <div class="line"></div>
+            <a href="tugas4.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas5.html" class="step"></a>
+        </div>
+        <p class="subtitle">Langkah 3: Riwayat Pendidikan</p>
+
+        <form>
+            <label>Nama Asal Sekolah :</label>
+            <input type="text" required>
+
+            <label for="alamats">Alamat Sekolah:</label>
+            <textarea id="alamatss" name="alamat" rows="3" placeholder="Masukkan alamat lengkap" required></textarea>
+
+            <label>Tahun Lulus :</label>
+            <input type="number" type="number" id="tahun_lulus" name="tahun_lulus" min="1900" max="2099" required>
+
+            <label>Jurusan Sekolah Asal :</label>
+            <input type="text" required>
+
+            <label>Nomor Ijazah/SKHU :</label>
+            <input type="text" required>
+
+            <label>NISN :</label>
+            <input type="number" required>
+
+            <div class="button-container between">
+                <a href="tugas2.html" class="btn secondary">Kembali</a>
+                <a href="tugas4.html" class="btn">Lanjut</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

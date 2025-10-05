@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran - Dokumen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="right-panel">
+        <h2>PENDAFTARAN MAHASISWA</h2>
+
+        <div class="progressbar">
+            <a href="index.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas2.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas3.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas4.html" class="step"></a>
+            <div class="line"></div>
+            <a href="tugas5.html" class="step active"></a>
+        </div>
+        <p class="subtitle">Langkah 5: Dokumen</p>
+
+        <form>
+        <div class="form-group">
+          <label for="foto">Pas Foto Terbaru</label>
+          <span class="help-text">(3x4, latar merah/biru, max 1MB, .jpg/.png)</span>
+          <input type="file" id="foto" name="foto" accept=".jpg,.jpeg,.png" required />
+        </div>
+ 
+        <div class="form-group">
+          <label for="ktp">Fotokopi/Scan KTP atau Identitas Lain</label>
+          <span class="help-text">(.pdf/.jpg/.png)</span>
+          <input type="file" id="ktp" name="ktp" accept=".pdf,.jpg,.jpeg,.png" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="kk">Fotokopi/Scan Kartu Keluarga</label>
+          <span class="help-text">(.pdf/.jpg/.png)</span>
+          <input type="file" id="kk" name="kk" accept=".pdf,.jpg,.jpeg,.png" required />
+        </div>
+
+        <div class="form-group">
+          <label for="ijazah">Ijazah atau Surat Keterangan Lulus</label>
+          <span class="help-text">(.pdf/.jpg/.png)</span>
+          <input type="file" id="ijazah" name="ijazah" accept=".pdf,.jpg,.jpeg,.png" required />
+        </div>
+
+        <div class="form-group">
+          <label for="sertifikat">Sertifikat Prestasi</label>
+          <span class="help-text">(opsional, .pdf/.jpg/.png, boleh lebih dari satu)</span>
+          <input type="file" id="sertifikat" name="sertifikat" accept=".pdf,.jpg,.jpeg,.png" multiple />
+        </div>
+
+        <div class="form-group">
+          <label for="pembayaran">Bukti Pembayaran Pendaftaran</label>
+          <span class="help-text">(.pdf/.jpg/.png)</span>
+          <input type="file" id="pembayaran" name="pembayaran" accept=".pdf,.jpg,.jpeg,.png" required />
+        </div>
+
+        <div class="form-group checkbox-group">
+         <label for="konfirmasi">
+         <input type="checkbox" id="konfirmasi" required>
+         <span>Saya menyatakan bahwa seluruh data dan dokumen yang saya isi serta unggah adalah benar, lengkap, dan sesuai dengan keadaan sebenarnya.</span>
+         </label>
+        </div>
+
+
+            <div class="button-container between">
+                <a href="tugas4.html" class="btn secondary">Kembali</a>
+                <button type="submit" class="btn">Kirim Data</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
